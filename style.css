@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+ body{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("portfolio-background.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: white;
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(114, 113, 113, 0.3);
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+}
+.nav-links{
+    justify-content: space-between;
+    margin-right: 40px;
+}
+a{
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.profile-name{
+    margin-left: 45px;
+    
+}
+.middle-section{
+    text-align: center;
+    margin-top: 200px;
+
+}
+.download-btn {
+    display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.intro{
+    margin-bottom: 5px;
+}
+.about-section{
+    text-align: center;
+    margin-top: 200px;
+}
+.about-me{
+    margin-bottom: 7px;
+}
+.skills-section{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.skills-header{
+    margin-bottom: 20px;
+}
+.skill-name{
+    margin-top: 50px;
+     background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-right: 10px;
+
+}
+.project a{
+    color: aqua;
+    font-weight: normal;
+}
+.projects-info{
+    display: flex;
+   justify-content: space-between;
+}
+.project-section{
+    text-align: center;
+}
+.project{
+    border: rgba(114, 113, 113, 0.3);
+    background-color:rgba(114, 113, 113, 0.3);
+    padding: 15px 20px;
+    border-radius: 7px;
+    margin: 15px 40px;
+    width: 650px;
+}
+.mail-section{
+    display: block;
+    justify-content: center;
+}
+.mail,.github,.linkedIn{
+    width: 15px;
+}
+.contact-details{
+    text-align: center;
+    margin-top: 170px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(114, 113, 113, 0.3);
+    height: 70px;
+    margin-top: 170px;
+}
+html {
+    scroll-padding-top: 150px;
+}
+
